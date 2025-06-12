@@ -1,0 +1,56 @@
+.slick-slider {
+  max-width: 1400px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10px;
+  justify-content: space-between;
+  position: relative;
+  margin: auto;
+}
+
+.custom-arrow {
+  width: 68px;
+  height: 68px;
+  border-width: 1px;
+  background-color: #FFF;
+  border-color: #D1CFCF;
+  border-radius: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.custom-arrow::before {
+  font-weight: 400;
+  font-size: 48px;
+  position: absolute;
+  top: 40%;
+  left: 28%;
+}
+
+.custom-arrow:hover {
+   background-color: #D1CFCF;
+}
+
+.prev {
+  left: -68px
+}
+
+.prev::before {
+  content: url('/src/images/prev.svg');
+  top: 9%;
+  left: 32%;
+}
+
+.next {
+  right: -68px
+}
+
+.next::before {
+   content: url('/src/images/next.svg');
+  top: 9%;
+  left: 39%;
+}

@@ -1,0 +1,52 @@
+.reviewCard {
+  margin-left: 10px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius:20px;
+  background-color: white;
+  gap: 20px;
+  &__logo {
+  display: flex;
+  align-items:center;
+  max-width: 100px;
+  height: 91px;
+  margin-bottom: 20px;
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #9B9A99;
+    margin-bottom: 45px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+  &__author {
+    height: 74px;
+    display: flex;
+    gap: 5px;
+    img {
+      width: 74px;
+      height: 74px;
+      object-fit: cover;
+
+    }
+  }
+  &__name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  &__position {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+}
+
+
