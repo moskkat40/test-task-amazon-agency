@@ -3,6 +3,9 @@ import Slider from 'react-slick';
 import logoOne from '../../images/1logo.png';
 import logoTwo from '../../images/2logo.png';
 import logoThree from '../../images/3logo.png';
+import person1 from '../../images/person1.png';
+import person2 from '../../images/person2.png';
+import person3 from '../../images/person3.png';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -54,7 +57,7 @@ const SliderCards = () => {
       logo: logoOne,
       review:
         'Sales Fortuna made managing sales easier and helped us focus on customers. Its tools have been crucial for our growth and client satisfaction.',
-      photo: '/public/images/person1.png',
+      photo: person1,
       name: 'Ethan Morgan',
       position: 'Founder and CEO, ',
       company: 'Serene Living Products',
@@ -64,7 +67,7 @@ const SliderCards = () => {
       logo: logoTwo,
       review:
         'Sales Fortuna has made sales so much easier for us. It saves time, simplifies the whole process, and helps us land more deals without extra hassle.',
-      photo: '/public/images/person2.png',
+      photo: person2,
       name: 'Olivia Hayes',
       position: 'Owner, Starlight ',
       company: 'Creations',
@@ -74,7 +77,7 @@ const SliderCards = () => {
       logo: logoThree,
       review:
         'Sales Fortuna has simplified our lead generation, helping us attract qualified prospects effortlessly and drive consistent growth.',
-      photo: '/public/images/person3.png',
+      photo: person3,
       name: 'Alexander Reed',
       position: 'Co-Founder, Opulent ',
       company: 'Living Group',
