@@ -47,30 +47,30 @@ const SliderCards = () => {
   const data = [
     {
       id: 1,
-      logo: '/public/images/1logo.png',
+      logo: '/test-task-amazon-agency/public/images/1logo.png',
       review:
         'Sales Fortuna made managing sales easier and helped us focus on customers. Its tools have been crucial for our growth and client satisfaction.',
-      photo: '/public/images/person1.png',
+      photo: '/test-task-amazon-agency/public/images/person1.png',
       name: 'Ethan Morgan',
       position: 'Founder and CEO, ',
       company: 'Serene Living Products',
     },
     {
       id: 2,
-      logo: '/public/images/2logo.png',
+      logo: '/test-task-amazon-agency/public/images/2logo.png',
       review:
         'Sales Fortuna has made sales so much easier for us. It saves time, simplifies the whole process, and helps us land more deals without extra hassle.',
-      photo: '/public/images/person2.png',
+      photo: '/test-task-amazon-agency/public/images/person2.png',
       name: 'Olivia Hayes',
       position: 'Owner, Starlight ',
       company: 'Creations',
     },
     {
       id: 2,
-      logo: '/public/images/3logo.png',
+      logo: '/test-task-amazon-agency/public/images/3logo.png',
       review:
         'Sales Fortuna has simplified our lead generation, helping us attract qualified prospects effortlessly and drive consistent growth.',
-      photo: '/public/images/person3.png',
+      photo: '/test-task-amazon-agency/public/images/person3.png',
       name: 'Alexander Reed',
       position: 'Co-Founder, Opulent ',
       company: 'Living Group',
