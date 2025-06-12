@@ -40,7 +40,7 @@
 }
 
 .prev::before {
-  content: url('/public/images/prev.svg');
+  content: url('./public/images/prev.svg');
   top: 9%;
   left: 32%;
 }
@@ -50,7 +50,7 @@
 }
 
 .next::before {
-  content: url('/public/images/next.svg');
+  content: url('./public/images/next.svg');
   top: 9%;
   left: 39%;
 }
